@@ -12,9 +12,9 @@ Use YOLOv5 to predict tool usages of physicians performing practice surgury oper
  </ul>
 
 ## How to run?
-#### Prepare envoriment
+#### Prepare environment
 1. Clone this project
-2. pip/conda install the requirments.txt file
+2. pip/conda install the requirements.txt file
 
 ### Reproduce results
 #### main.py
@@ -82,3 +82,12 @@ This module will save in the same directory as `video.wmv` a new labeled video f
 
 ## Utils
 We have implemented an external script called `flip_images.py` which we used to synthectically create horizontally flipped images of our dataset.
+
+## Other information
+The weights for the trained models are in the following directories:<br>
+YOLOv5s ADAM - yolov5/runs/train/exp<br>
+YOLOv5s SGD - yolov5/runs/train/exp12<br>
+YOLOv5m SGD - yolov5/runs/train/exp11<br>
+<br>
+The hyperparameters used are located in the following directory: `yolov5/runs/evolve/exp4`
+
